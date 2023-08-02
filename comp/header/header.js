@@ -15,7 +15,7 @@ function Header() {
           <Image
             src={logo}
             alt={`${appData.appName} - Logo`}
-            width={195}
+            width={180.36}
             height={40}
           />
         </Link>

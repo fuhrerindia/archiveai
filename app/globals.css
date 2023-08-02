@@ -47,11 +47,19 @@ body {
 .searchbox {
   color: var(--white);
 }
-header a img{
+
+header a img {
   margin-left: 20px;
 }
+
+header a {
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+
 /* HEADER END */
 
-main{
+main {
   min-height: calc(100vh - 55px);
 }
