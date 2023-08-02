@@ -1,0 +1,14 @@
+.row {
+    color: var(--white);
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    font-size: 150px;
+}
