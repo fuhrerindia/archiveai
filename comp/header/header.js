@@ -5,6 +5,7 @@ import appData from "@/strings";
 import Row from "../row/row";
 import SearchIcon from "@mui/icons-material/Search";
 import Link from "next/link";
+import SearchBox from "../searchbox/searchbox";
 
 // CSS FOR THIS COMPONENT IS WRITTEN IN globals.css
 function Header() {
@@ -21,7 +22,7 @@ function Header() {
         </Link>
         <Row alignItems="center" className="searchbox">
           <SearchIcon className="searchIcon" />
-          <input type="search" placeholder="Type a keyword for AI tool" />
+          <SearchBox />
         </Row>
       </Row>
     </header>

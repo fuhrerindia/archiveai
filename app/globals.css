@@ -63,3 +63,27 @@ header a {
 main {
   min-height: calc(100vh - 55px);
 }
+
+@media screen and (max-width: 593px) {
+  header>div {
+    flex-direction: column !important;
+  }
+
+  header>div>a {
+    margin: 10px;
+  }
+  header>div>div{
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  header>div>div input[type="search"] {
+    width: 100%;
+  }
+  .resultbox img{
+    width: 15vw;
+    height: 15vw;
+  }
+  .resultbox > div{
+    align-items: flex-start!important;
+  }
+}

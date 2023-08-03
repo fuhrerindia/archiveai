@@ -4,14 +4,6 @@
     margin-bottom: 40px;
 }
 
-.result button {
-    background-color: var(--green);
-    border: 0;
-    padding: 10px 15px;
-    color: var(--white);
-    cursor: pointer;
-}
-
 .result p {
     margin: 10px 0px;
 }
